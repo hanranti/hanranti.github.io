@@ -10,4 +10,4 @@ GithubApp.config(function ($routeProvider) {
             .otherwise({
                 redirectTo: '/'
             });
-}
+});
