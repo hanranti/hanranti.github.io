@@ -1,3 +1,4 @@
+console.log("app.js");
 var GithubApp = angular.module('hanranti', ['ngRoute']);
 
 GithubApp.config(function ($routeProvider) {
