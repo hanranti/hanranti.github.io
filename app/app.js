@@ -1,7 +1,7 @@
 console.log("app.js");
-var GithubApp = angular.module('hanranti', ['ngRoute']);
+var GithubApp = angular.module('hanranti', []);
 
-GithubApp.config(function ($routeProvider) {
+<!--GithubApp.config(function ($routeProvider) {
     $routeProvider
             .when('/', {
                 controller: 'DefaultController',
@@ -10,4 +10,4 @@ GithubApp.config(function ($routeProvider) {
             .otherwise({
                 redirectTo: '/'
             });
-});
+});-->
