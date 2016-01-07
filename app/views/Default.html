@@ -1,4 +1,6 @@
 <div>
-  <p>ControllerTest</p>
-  {{test}}
+  <h2>Repos</h2>
+  <ul ng-repeat="repo in repos">
+    <li><a ng-href="{{repo.html_url}}">{{repo.name}}</a></li>
+  </ul>
 </div>
