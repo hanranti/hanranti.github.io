@@ -15,3 +15,9 @@ GithubApp.config(function ($routeProvider) {
 GithubApp.config(['$httpProvider', function($httpProvider) {
   delete $httpProvider.defaults.headers.common["X-Requested-With"]
 }]);
+
+GithubApp.run(function($rootScope, GithubService){
+  GithubService.getUser().success(function (data, status, headers, config) {
+       $rootScope.user = data;
+    });
+});
