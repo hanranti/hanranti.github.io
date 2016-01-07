@@ -1,1 +1,3 @@
 
+GithubApp.service('FirebaseService', function(){
+});
