@@ -11,3 +11,7 @@ GithubApp.config(function ($routeProvider) {
                 redirectTo: '/'
             });
 });
+
+GithubApp.config(['$httpProvider', function($httpProvider) {
+  delete $httpProvider.defaults.headers.common["X-Requested-With"]
+}]);
