@@ -6,6 +6,9 @@ GithubApp.config(function ($routeProvider) {
             .when('/', {
                 controller: 'DefaultController',
                 templateUrl: 'app/views/Default.html'
+            }).when('repos/', {
+                controller: 'ReposController',
+                templateUrl: 'app/views/repos.html'
             })
             .otherwise({
                 redirectTo: '/'
