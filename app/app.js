@@ -1,5 +1,5 @@
 console.log("app.js");
-var GithubApp = angular.module('hanranti', ['firebase']);
+var GithubApp = angular.module('hanranti', ['firebase', 'ngRoute']);
 
 GithubApp.config(function ($routeProvider) {
     $routeProvider
