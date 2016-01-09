@@ -6,7 +6,7 @@ GithubApp.config(function ($routeProvider) {
             .when('/', {
                 controller: 'DefaultController',
                 templateUrl: 'app/views/Default.html'
-            }).when('repos/', {
+            }).when('/repos/', {
                 controller: 'ReposController',
                 templateUrl: 'app/views/repos.html'
             })
