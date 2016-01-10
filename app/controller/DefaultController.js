@@ -1,4 +1,4 @@
-GithubApp.controller('DefaultController', function($scope, $location, FirebaseService, GithubService){
+GithubApp.controller('DefaultController', function($scope, $location, FirebaseService){
   $scope.visits = 0;
   $scope.test = 0;
   FirebaseService.addVisit();
