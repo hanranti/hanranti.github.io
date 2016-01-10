@@ -4,7 +4,7 @@ var GithubApp = angular.module('hanranti', ['ngRoute']);
 GithubApp.config(function ($routeProvider) {
     $routeProvider
             .when('/', {
-                controller: 'ReposController',
+                controller: 'DefaultController',
                 templateUrl: 'app/views/Default.html'
             }).when('/repos/', {
                 controller: 'ReposController',
