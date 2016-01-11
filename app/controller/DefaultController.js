@@ -6,4 +6,5 @@ GithubApp.controller('DefaultController', function($scope, $location){
             localStorage.visited = true;
             $scope.visits = 1;
         }
+  }
 });
