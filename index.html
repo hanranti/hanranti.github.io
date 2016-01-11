@@ -17,8 +17,9 @@
           <a class="navbar-brand" ng-href="#"><img src="{{user.avatar_url}}" height="42" width="42">{{user.login}}</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <div class="navbar-right">
-            <ul>
+          <div class="dropdown navbar-right">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
               <li><a ng-href="#">Frontpage</a></li>
               <li><a ng-href="#/repos">Repos</a></li>
               <li><a ng-href="https://github.com/hanranti/">Github</a></li>
