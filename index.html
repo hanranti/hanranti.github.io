@@ -18,8 +18,11 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <div class="dropdown navbar-right">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Dropdown
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                 <li><a ng-href="#">Frontpage</a></li>
                 <li><a ng-href="#/repos">Repos</a></li>
                 <li><a ng-href="https://github.com/hanranti/">Github</a></li>
@@ -30,7 +33,7 @@
     </nav>
     <div ng-view></div>
 
-    <h2>testaaa</h2>
+    <h2>test</h2>
     
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
