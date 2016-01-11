@@ -1,9 +1,9 @@
-GithubApp.controller('DefaultController', function($scope, $location, FirebaseService){
+GithubApp.controller('DefaultController', function($scope, $location){
   if(typeof(Storage) !== "undefined") {
         if (localStorage.visited) {
-            FirebaseService.addVisit();;
+            $scope.visits++;
         } else {
             localStorage.visited = true;
+            $scope.visits = 1;
         }
-  $scope.visits = FirebaseService.getVisits();
 });
