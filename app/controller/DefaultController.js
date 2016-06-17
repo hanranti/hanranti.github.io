@@ -1,2 +1,3 @@
-GithubApp.controller('DefaultController', function($scope){
+GithubApp.controller('DefaultController', function($scope, $location){
+  $location('https://github.com/hanranti/Luolastogeneraattori');
 });
